@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+}
+
+.img-text {
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 105px 0 61px 0;
+    gap: 15px; 
+}
+
+
+.img-text h1{
+    color: #58190A;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 72px;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-text p{
+    color: #58190A;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 38px;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+#porcoes{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+#porcoes p{
+    color: #9B6647;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 40px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.div-img{
+    margin-right: 50px;
+}
+
+.div-img img{
+    width: 400px;
+    height: 293px;
+}
+
+.container-bottom {
+    justify-content: space-around;
+    gap: 64px;
+    display: flex;
+    padding: 50px;
+    font-size: ;
+}
+
+.section1{
+    background-color: #FEECE0;
+}
+
+.section2{
+    height: 100vh;
+    background-color: #9B6647;
+    
+}
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.preparo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.container-bottom h3{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.img-h3 {
+    gap: 9px;
+    margin: 10px 10px 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: inline-block;
+}
+
+ul li{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 28px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+ol li{
+    color: #ffffff;
+    text-edge: cap;
+    font-size: 28px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
